@@ -5,8 +5,8 @@ model = [75137, 22972, 130623, 24734]
 model_error = [62744, 23329, 120742, 16474]
 
 # Values from the internet
-experiment = [26000, 50000, 47500, 62500]
-experiment_error = [2000, 10000, 2500, 2500]
+experiment = [13000, 20000, 18000, 18000]
+experiment_error = [0, 0, 0, 0]
 
 labels = ['Aluminium', 'Copper', 'Gold', 'Silver']
 plt.errorbar(range(len(model)), model, yerr = model_error, fmt = 'ko', label = 'model')
