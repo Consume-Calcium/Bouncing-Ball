@@ -95,6 +95,7 @@ def mc(r, s): # r is the ion radius and s is the seperation between ions
 
     print(f"{electron_mobility} ± {electron_mobility_error}")
 
+# Prints electron mobilities with errors in atomic units 
 print('Aluminium')
 mc(1.011, 7.652)
 
